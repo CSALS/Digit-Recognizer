@@ -90,6 +90,9 @@ of some key features which are needed to correctly predict this image. So that's
 ## Issues:-
 - Canvas is not getting displayed when its styling is put into style.css file
 
+## Next Version:-
+- To use Convolutional Neural Network which has better accuracy than these two
+
 ## Contributing Guidelines:-
 1. Fork this repo.
 2. Clone it on your local machine
