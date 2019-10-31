@@ -75,3 +75,5 @@ iii) Random Forest Classifier:	96.99%
 - Add proper docs.
 - Add loading screen when computing the result
 - Make it responsive
+
+
