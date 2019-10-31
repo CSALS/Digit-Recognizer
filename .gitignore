@@ -1,0 +1,4 @@
+model/trainedModel/MNIST_Dataset_Loader/dataset
+model/trainedModel/knnClassifier.pickle
+model/trainedModel/svmClassifier.pickle
+model/trainedModel/rfcClassifier.pickle
