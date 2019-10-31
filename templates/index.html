@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <title>What's my digit?</title>
+    <style type='text/css'>
+        html,body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        #container {
+            /* background: yellow; */
+            position: absolute;
+            top:0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        #inputLabel {
+            font-size: 15pt;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            /* background: red; */
+            text-align: center;
+            position: relative;
+            top: 30%;
+        }
+        #sheet {
+            /*If these are here then drawing won't align cursor 
+            height: 300px;
+            width: 300px; */
+            background: rgb(26, 19, 19);
+            position: absolute;
+            top:0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            border:5px solid black;
+            cursor: crosshair;
+        }
+        #resultContainer {
+            /* background: red; */
+            position: relative;
+            top:68.75%;
+            text-align: center;
+            height:85px;
+        }
+        #clear {
+            margin: 0 auto;
+            position: relative;
+            left:-30px;
+        }
+        #submit {
+            margin: 0 auto;
+            position: relative;
+            left:30px;
+        }
+        .button {
+            background-color: rgb(34, 34, 37);
+            border: none;
+            color: #FFFFFF;
+            padding: 10px;
+            text-align: center;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .button:after {
+            content: "";
+            background: #f1f1f1;
+            display: block;
+            position: absolute;
+            padding-top: 300%;
+            padding-left: 350%;
+            margin-left: -20px !important;
+            margin-top: -120%;
+            opacity: 0;
+            transition: all 0.8s
+        }
+        .button:active:after {
+            padding: 0;
+            margin: 0;
+            opacity: 1;
+            transition: 0s
+        }
+        #result {
+            margin: 0 auto;
+            border: 0;
+            width:300px;
+            position: relative;
+            top:10px;
+        }
+        .sechighlight {
+            background-color: #f7f6f1;
+            margin: auto;
+            position: absolute;
+            top: 5%;
+            width: 80%;
+            left: 10%;
+        }
+        #coursedesc {
+            text-align: justify;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+        <div class="sechighlight">
+            <div class="container sec">
+                <h2>Introduction</h2>
+                <div id="coursedesc">
+            Convolutional neural networks attain <a target="_blank" href="http://arxiv.org/pdf/1409.4842v1.pdf">state of the art</a> performance in computer vision. They do this by analyzing the pixels in images in the <a target="_blank" href="http://papers.nips.cc/paper/4991-hierarchical-modular-optimization-of-convolutional-networks-achieves-representations-similar-to-macaque-it-and-human-ventral-stream.pdf">same way</a> as the human visual system. The network I built is made up of several simpler layers ‘stacked’ on top of each other: this means that it is a form of <a target="_blank" href="https://en.wikipedia.org/wiki/Deep_learning">deep learning</a>. I trained the network using Keras and then rewrote it in <a target="_blank" href="http://www.numpy.org/">numpy</a> so it could run as a demo.
+                </div>
+            </div>
+        </div>
+        <div id="inputLabel">Enter any digit</div>
+        <canvas id="sheet" width="200" height="200"></canvas>
+        <div id="resultContainer">
+            <div id="result-container">
+                <button type="button" onclick="clearDrawing()" id="clear" class="button">Clear!</button>
+                <button type="button" onclick="submitImage()" id="submit" class="button">Submit!</button>
+                <h2 id="result"></h2>
+            </div>
+        </div>  
+    </div>   
+  </body>
+  <!-- Credits to https://github.com/greydanus/pythonic_ocr for this "Fork me on github" option -->
+  <a href="https://github.com/CSALS/Digit-Recognizer" target="_blank_"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="./static/app.js"></script>
+</html>
