@@ -107,4 +107,4 @@ All these steps ensure you make changes on top of my latest changes.
 
 ## Credits
 - For converting canvas image to MNIST compatible image : [link](https://medium.com/@ashok.tankala/build-the-mnist-model-with-your-own-handwritten-digits-using-tensorflow-keras-and-python-f8ec9f871fd3)
-- For MNIST Dataset Loader code : [link](https://github.com/anujdutt9/Handwritten-Digit-Recognition-using-Deep-Learning)
+- For MNIST Dataset Loader code : [link](https://github.com/anujdutt9/Handwritten-Digit-Recognition-using-Deep-Learning/tree/master/MNIST_Dataset_Loader)
