@@ -95,6 +95,10 @@ html,body {
     font-size: 15pt;
     font-family: "Comic Sans MS", cursive, sans-serif
 }
+#coursedesc {
+    font-size: 13pt;
+    font-family: "Comic Sans MS", cursive, sans-serif   
+}
 #bold {
     font-weight: bold;
 }
