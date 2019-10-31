@@ -5,7 +5,7 @@ import io
 import pickle
 import joblib
 import statistics
-
+import matplotlib.pyplot as plt
 def convert(data):
     data=base64.decodebytes(bytes((data[22:]),'utf-8'))
     image = Image.open(io.BytesIO(data))
@@ -15,6 +15,8 @@ def convert(data):
     image=image.resize((28,28),Image.ANTIALIAS)
     #converting the image to array
     image = np.asarray(image)
+    # plt.imshow(image,cmap='gray')
+    # plt.show()
     return image.flatten()
 
 def myPrediction(digit, classifier):
@@ -40,4 +42,9 @@ def predict(imageURL):
     prediction.append(myPrediction(digit, svmClassifier)[0])
     prediction.append(myPrediction(digit, knnClassifier)[0])
     prediction.append(myPrediction(digit, rfcClassifier)[0])
-    return (statistics.mode(prediction))
+    print(prediction)
+    try:
+        finalPrediction = statistics.mode(prediction)
+    except statistics.StatisticsError:
+        finalPrediction = prediction[0]
+    return finalPrediction

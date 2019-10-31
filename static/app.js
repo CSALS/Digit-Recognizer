@@ -2,9 +2,10 @@ var context = document.getElementById('sheet').getContext("2d");
 var canvas = document.getElementById('sheet');
 context = canvas.getContext("2d");
 context.strokeStyle = "white";
+// context.strokeStyle = "black";
 context.lineCap = "round";
 context.lineJoin="round";
-context.lineWidth = 18;
+context.lineWidth = 13;
 
 var clickX = [];
 var clickY = [];
