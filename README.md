@@ -1,5 +1,5 @@
-- ~Resolve no unique mode error by using svm prediction in that case~
-- Export the training model notebook to py file.
+##To be implemented:-
+- Add requirements.txt
 - Add introduction and details part for the web page.
 - Add proper docs.
 - Add loading screen when computing the result
