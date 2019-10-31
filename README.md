@@ -1,6 +1,6 @@
-<h1 align="center">What's My Digit?</h1>
+# What's My Digit?
 
-![](demo.gif)
+![](assets/demo.gif)
 
 ## Description
 This is Flask based web application where users can draw digits on the canvas provided in the website and that drawing is encoded as base64 string which is then converted to 28 * 28 grayscale image and is tested on the pre-trained models.
