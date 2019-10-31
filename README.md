@@ -65,7 +65,8 @@ iii) Random Forest Classifier:	96.99%
 
 ## Test Images Classification Output:
 
-![Output a1](Outputs/output.png?raw=true "Output a1")       
+![](assets/testImage/group1.JPG)
+
 
 
 ## To be implemented:-
