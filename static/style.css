@@ -87,3 +87,14 @@ html,body {
 #coursedesc {
     text-align: justify;
 }
+#description {
+    position: absolute;
+    top:80%;
+}
+#SVM, #KNN, #RFC {
+    font-size: 15pt;
+    font-family: "Comic Sans MS", cursive, sans-serif
+}
+#bold {
+    font-weight: bold;
+}
