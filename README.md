@@ -67,7 +67,19 @@ iii) Random Forest Classifier:	96.99%
 
 ![](assets/testImage/g1.JPG) ![](assets/testImage/g2.JPG) ![](assets/testImage/g3.JPG) ![](assets/testImage/g4.JPG)
 
+## User Drawn Images Classification Output:
 
+![](assets/userImage/1.JPG) ![](assets/userImage/2.JPG) ![](assets/userImage/3.JPG) ![](assets/userImage/4.JPG) ![](assets/userImage/5.JPG) ![](assets/userImage/6.JPG)
+
+One of the reasons for wrong classification on user images :
+```
+The canvas provided is 200*200. So scaling the image down to MNIST compatible image (i.e. 28*28 grayscale image) results in loss
+of some key features which are needed to correctly predict this image. So that's one of the reason for the wrong prediction of some images as we have seen in the above images.
+```
+## Technologies Used :-
+- HTML + CSS + Javascript (for frontend)
+- Flask (for backend)
+- Python (for machine learning)
 
 ## To be implemented:-
 - Add requirements.txt
@@ -76,4 +88,23 @@ iii) Random Forest Classifier:	96.99%
 - Add loading screen when computing the result
 - Make it responsive
 
+## Contributing Guidelines:-
+1. Fork this repo.
+2. Clone it on your local machine
+3. Add new remote using `git remote add https://github.com/CSALS/Digit-Recognizer`
+4. Create a new branch using `git checkout -b my-branch`
+5. After making some changes commit them.
+6. Rebase your commits with `upstream/master` using:
+  - `git checkout master`
+  - `git fetch upstream master`
+  - `git reset --hard FETCH_HEAD`
+  - `git checkout my-branch`
+  - `git rebase master`
+7. Resolve any merge conflicts and then push the branch with `git push origin my-branch`
+8. Make a pull request with a description of your changes and wait for me to review it 😃 
 
+All these steps ensure you make changes on top of my latest changes.
+
+## Credits
+- For converting canvas image to MNIST compatible image [link](https://medium.com/@ashok.tankala/build-the-mnist-model-with-your-own-handwritten-digits-using-tensorflow-keras-and-python-f8ec9f871fd3)
+- For MNIST Dataset Loader code [link](https://github.com/anujdutt9/Handwritten-Digit-Recognition-using-Deep-Learning/tree/master/MNIST_Dataset_Loader)
