@@ -65,7 +65,7 @@ iii) Random Forest Classifier:	96.99%
 
 ## Test Images Classification Output:
 
-![](assets/testImage/group1.JPG)
+![](assets/testImage/g1.JPG) ![](assets/testImage/g2.JPG) ![](assets/testImage/g3.JPG) ![](assets/testImage/g4.JPG)
 
 
 
