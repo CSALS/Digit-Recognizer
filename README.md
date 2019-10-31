@@ -84,9 +84,11 @@ of some key features which are needed to correctly predict this image. So that's
 ## To be implemented:-
 - Add requirements.txt
 - Add introduction and details part for the web page.
-- Add proper docs.
 - Add loading screen when computing the result
 - Make it responsive
+
+## Issues:-
+- Canvas is not getting displayed when its styling is put into style.css file
 
 ## Contributing Guidelines:-
 1. Fork this repo.
