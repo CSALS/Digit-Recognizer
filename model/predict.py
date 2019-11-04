@@ -30,6 +30,7 @@ def loadTrainModels():
     svmClassifier = joblib.load('model/trainedModel/svmClassifier.pickle')
     knnClassifier = joblib.load('model/trainedModel/knnClassifier.pickle').set_params(n_jobs=1)
     rfcClassifier = joblib.load('model/trainedModel/rfcClassifier.pickle').set_params(n_jobs=1)
+    #return [knnClassifier, knnClassifier, knnClassifier]
     return [svmClassifier, knnClassifier, rfcClassifier]
 
 def predict(imageURL):

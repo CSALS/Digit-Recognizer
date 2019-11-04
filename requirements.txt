@@ -14,7 +14,7 @@ assignment5 == 1.0
 automodel == 0.5.9
 
 # app.py: 3,5
-dataultra-commandlines == 0.1
+#dataultra-commandlines == 0.1
 
 # model/predict.py: 6
 # model/trainedModel/.ipynb_checkpoints/svm-checkpoint.py: 13
@@ -36,26 +36,26 @@ mnist == 0.2.2
 numpy == 1.13.3
 
 # app.py: 3,5
-package-generator == 0.0.1
+#package-generator == 0.0.1
 
 # app.py: 3,5
-pyactiverecord == 0.4.2
+#pyactiverecord == 0.4.2
 
 # app.py: 3,5
-pylinktester == 0.1
+#pylinktester == 0.1
 
 # app.py: 3,5
-pyvision == 0.0.3
+#pyvision == 0.0.3
 
 # model/trainedModel/.ipynb_checkpoints/svm-checkpoint.py: 15
 # model/trainedModel/trainModel.py: 13
 scikit_learn == 0.21.3
 
 # app.py: 3,5
-so == 0.5
+#so == 0.5
 
 # app.py: 3,5
-synicdomain == 0.0.6.1
+#synicdomain == 0.0.6.1
 
 # app.py: 3,5
-webcrawl == 1.1.2
+#webcrawl == 1.1.2

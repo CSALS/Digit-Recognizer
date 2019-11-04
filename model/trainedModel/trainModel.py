@@ -51,17 +51,17 @@ print('\nLoaded Testing Data...')
 # In[17]:
 
 
-test_labels[0]
+#test_labels[0]
 
 
 # In[21]:
 
-
+"""
 for index in range(train_img.shape[0]):
     if train_labels[index] == 9:
         plt.imshow(train_img[index].reshape(28,28),cmap='gray')
         plt.show()
-
+"""
 
 # In[5]:
 
@@ -134,23 +134,22 @@ def rfcClassifier(train_img, train_labels, test_img, test_labels):
 
 # In[8]:
 
-
+print('\n Training SVM Classifier \n')
 svmClassifier(train_img, train_labels, test_img, test_labels)
-
+print('\n Completed SVM Classifier training \n')
 
 # In[9]:
 
-
+print('\n Training KNN Classifier \n')
 knnClassifier(train_img, train_labels, test_img, test_labels)
-
+print('\n Completed KNN CLassifier training \n')
 
 # In[10]:
 
-
+print('\n Training RFC Classifier \n')
 rfcClassifier(train_img, train_labels, test_img, test_labels)
+print('\n Completed RFC Clasifier training \n')
 
-
-# In[ ]:
 
 
 
