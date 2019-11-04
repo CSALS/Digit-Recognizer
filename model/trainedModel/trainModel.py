@@ -14,7 +14,7 @@ from sklearn.metrics import accuracy_score,confusion_matrix
 import joblib 
 from MNIST_Dataset_Loader.mnist_loader import MNIST
 import matplotlib.pyplot as plt
-get_ipython().run_line_magic('matplotlib', 'inline')
+#get_ipython().run_line_magic('matplotlib', 'inline')
 from matplotlib import style
 style.use('ggplot')
 
