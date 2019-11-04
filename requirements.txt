@@ -2,7 +2,7 @@
 # https://github.com/damnever/pigar
 
 # app.py: 1
-Flask == 0.12.2
+Flask == 1.0
 
 # model/predict.py: 2
 Pillow == 5.1.0
