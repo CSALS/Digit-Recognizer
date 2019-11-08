@@ -82,6 +82,7 @@ of some key features which are needed to correctly predict this image. So that's
 - Python (for machine learning)
 
 ## To be implemented:-
+- Return error message if nothing is drawn on canvas
 - To use Convolutional Neural Network which has better accuracy than these two
 - Modify the website
 - Add loading screen when computing the result
