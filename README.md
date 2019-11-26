@@ -2,6 +2,15 @@
 
 ![](assets/demo.gif)
 
+## Version
+V2 :-
+ ```
+	Latest version. Training model using CNN
+ ```
+V1 :- 
+ ```
+	Trained model using KNN, RFC, SVM. Using voting approach to predict user images.
+ ```
 ## Description
 This is Flask based web application where users can draw digits on the canvas provided in the website and that drawing is encoded as base64 string which is then converted to 28 * 28 grayscale image and is tested on the pre-trained models.
 Model is trained using MNIST dataset and three classification algorithms K Nearest Neighbors, Support Vector Machines, Random Forest Clasifier were used.
@@ -14,6 +23,7 @@ For prediction of the user image, the image is tested on all the three classifie
   ```
   pip install -r requirements.txt
   ```
+
 
 # Usage
 
