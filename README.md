@@ -79,10 +79,9 @@ of some key features which are needed to correctly predict this image. So that's
 ## Technologies Used :-
 - HTML + CSS + Javascript (for frontend)
 - Flask (for backend)
-- Python (for machine learning)
+- Python (for machine learning algorithms)
 
-## To be implemented:-
-- Return error message if nothing is drawn on canvas
+## To be implemented :-
 - To use Convolutional Neural Network which has better accuracy than these two
 - Modify the website
 - Add loading screen when computing the result
@@ -90,23 +89,6 @@ of some key features which are needed to correctly predict this image. So that's
 
 ## Issues:-
 - Canvas is not getting displayed when its styling is put into style.css file
-
-## Contributing Guidelines:-
-1. Fork this repo.
-2. Clone it on your local machine
-3. Add new remote using `git remote add https://github.com/CSALS/Digit-Recognizer`
-4. Create a new branch using `git checkout -b my-branch`
-5. After making some changes commit them.
-6. Rebase your commits with `upstream/master` using:
-  - `git checkout master`
-  - `git fetch upstream master`
-  - `git reset --hard FETCH_HEAD`
-  - `git checkout my-branch`
-  - `git rebase master`
-7. Resolve any merge conflicts and then push the branch with `git push origin my-branch`
-8. Make a pull request with a description of your changes and wait for me to review it 😃 
-
-All these steps ensure you make changes on top of my latest changes.
 
 ## Credits
 - I followed this paper for implementing the algorithms [link](http://ijarcet.org/wp-content/uploads/IJARCET-VOL-6-ISSUE-7-990-997.pdf)
