@@ -5,7 +5,7 @@
 Flask == 1.0
 
 # model/predict.py: 2
-Pillow == 6.2.1
+Pillow == 9.0.1
 
 # app.py: 3,5
 assignment5 == 1.0
