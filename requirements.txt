@@ -33,7 +33,7 @@ mnist == 0.2.2
 # model/predict.py: 1
 # model/trainedModel/.ipynb_checkpoints/svm-checkpoint.py: 2
 # model/trainedModel/trainModel.py: 8
-numpy == 1.13.3
+numpy == 1.22.0
 
 # app.py: 3,5
 #package-generator == 0.0.1
