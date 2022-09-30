@@ -19,7 +19,7 @@ automodel == 0.5.9
 # model/predict.py: 6
 # model/trainedModel/.ipynb_checkpoints/svm-checkpoint.py: 13
 # model/trainedModel/trainModel.py: 14
-joblib == 0.14.0
+joblib == 1.2.0
 
 # model/predict.py: 8
 # model/trainedModel/.ipynb_checkpoints/svm-checkpoint.py: 16,17
